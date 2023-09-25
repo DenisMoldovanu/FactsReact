@@ -18,6 +18,20 @@ ul {
     }
   }
 }
+.favourite-facts{
+  ul{
+    padding-top: 38px;
+    @media screen and (max-width: 767px) {
+      padding-top: 0px;
+    }
+  }
+  li{
+    cursor: unset;
+    &:hover{
+      text-decoration: unset;
+    }
+  }
+}
 p {
   font-weight: 500;
 }
